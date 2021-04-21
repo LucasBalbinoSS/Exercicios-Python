@@ -1,0 +1,12 @@
+n = int(input('Digite um número para ver sua tabuada completa: '))
+
+print('%i x %.1i = %i' % (n, 1, n * 1))
+print('%i x %.1i = %i' % (n, 2, n * 2))
+print('%i x %.1i = %i' % (n, 3, n * 3))
+print('%i x %.1i = %i' % (n, 4, n * 4))
+print('%i x %.1i = %i' % (n, 5, n * 5))
+print('%i x %.1i = %i' % (n, 6, n * 6))
+print('%i x %.1i = %i' % (n, 7, n * 7))
+print('%i x %.1i = %i' % (n, 8, n * 8))
+print('%i x %.1i = %i' % (n, 9, n * 9))
+print('%i x %.1i = %i' % (n, 10, n * 10))
