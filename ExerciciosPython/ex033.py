@@ -1,4 +1,4 @@
-n = str(input('Digite três números (separe-os com vírgula): ')).strip()
+n = str(input('\033[35mDigite três números (separe-os com vírgula): ')).strip()
 ns = n.split(', ')
 
 n1 = int(ns[0])

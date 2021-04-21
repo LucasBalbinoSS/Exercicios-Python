@@ -1,4 +1,4 @@
-nome = input('Informe seu nome para ver suas variações: ')
+nome = input('\033[35mInforme seu nome para ver suas variações: ')
 
 print('Em maiúsculas:', nome.upper())
 
@@ -15,4 +15,4 @@ print('O seu nome, ao todo, contém %s letras' % len(junto))
 
 print()
 
-print('Seu primeiro nome contém %s letras' % len(nome[0]))
+print('\033[35mSeu primeiro nome contém %s letras' % len(nome[0]))

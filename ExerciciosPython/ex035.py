@@ -11,4 +11,4 @@ if c1 < c2 + c3 and c2 < c1 + c3 and c3 < c1 + c2:
     print('\033[1;32mSim\033[m, é possível formar um triângulo!')
 else:
     print()
-    print('\033[1;31mNão\033[m é possível formar um triângulo...')
+    print('\033[1;32mNão\033[m é possível formar um triângulo...')

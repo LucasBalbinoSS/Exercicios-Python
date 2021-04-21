@@ -1,4 +1,4 @@
-nome = str(input('Informe seu nome completo: ')).strip().title()
+nome = str(input('\033[35mInforme seu nome completo: ')).strip().title()
 print()
 print(nome)
 

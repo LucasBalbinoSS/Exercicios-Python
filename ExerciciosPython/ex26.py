@@ -1,4 +1,4 @@
-name = str(input('Digite uma frase: ').strip()).upper()
+name = str(input('\033[35mDigite uma frase: ').strip()).upper()
 ns = ''.join(name[0:])
 
 print(ns)

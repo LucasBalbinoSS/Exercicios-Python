@@ -1,6 +1,6 @@
 import random
 
-nomes = input('Escreva o nome de quatro alunos: ')
+nomes = input('\033[35mEscreva o nome de quatro alunos: ')
 dados = nomes.split()
 
 n1 = (dados[0])

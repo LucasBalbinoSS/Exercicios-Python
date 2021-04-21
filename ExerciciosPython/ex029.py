@@ -1,4 +1,4 @@
-vel = float(input('Informe a velocidade do carro (a cada Km/h acima do limite, você pagará R$7,00): '))
+vel = float(input('\033[35mInforme a velocidade do carro (a cada Km/h acima do limite, você pagará R$7,00): '))
 multa = 0
 
 if vel > 80:

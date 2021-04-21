@@ -8,7 +8,7 @@
 #
 # print('Unidades:', n[3], '\nDezenas:', n[2], '\nCentenas:', n[1], '\nMilhar:', n[0])
 
-n = int(input('Digite um número de zero a 9999: '))
+n = int(input('\033[35mDigite um número de zero a 9999: '))
 
 u = n // 1 % 10
 d = n // 10 % 10

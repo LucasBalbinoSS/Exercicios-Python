@@ -1,5 +1,5 @@
 import math
-an = float(input('Informe um ângulo qualquer: '))
+an = float(input('\033[35mInforme um ângulo qualquer: '))
 sen = math.sin(math.radians(an))
 cos = math.cos(math.radians(an))
 tan = math.tan(math.radians(an))

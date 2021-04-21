@@ -1,6 +1,6 @@
 n = int(input('Digite um número para ver sua tabuada completa: '))
 
-print('%i x %.1i = %i' % (n, 1, n * 1))
+print('\033[32m%i x %.1i = %i' % (n, 1, n * 1))
 print('%i x %.1i = %i' % (n, 2, n * 2))
 print('%i x %.1i = %i' % (n, 3, n * 3))
 print('%i x %.1i = %i' % (n, 4, n * 4))

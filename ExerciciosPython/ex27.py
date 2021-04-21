@@ -1,4 +1,4 @@
-nome = str(input('Digite seu nome completo: ')).strip()
+nome = str(input('\033[35mDigite seu nome completo: ')).strip()
 print(nome)
 
 nome2 = nome.split()

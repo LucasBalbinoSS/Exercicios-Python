@@ -1,6 +1,6 @@
 import random
 
-nomes = input('Digite quatro nomes para sortea-los em uma sequência: ')
+nomes = input('\033[35mDigite quatro nomes para sortea-los em uma sequência: ')
 sorteio = nomes.split()
 
 nm1 = (sorteio[0])
